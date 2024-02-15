@@ -18,7 +18,7 @@ body {
 }
 .logo {
     font-family: "Raleway", sans-serif;
-    color: #4d5ae5;
+    color: #2e2f42;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -72,7 +72,7 @@ body {
         color: #fff;
         background-color: #4d5ae5;
 }
-.order-button :hover
+.order-button :hover,
 .order-button :focus {
     font-weight: 600;
     background-color: #404bbf;
@@ -111,6 +111,8 @@ body {
 }
 .team-list {
     color: #2e2f42;
+}
+.team-list-item {
     background-color: #ffffff;
 }
 .team-name {
