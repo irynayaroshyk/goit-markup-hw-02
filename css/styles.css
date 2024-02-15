@@ -72,7 +72,10 @@ body {
         color: #fff;
         background-color: #4d5ae5;
 }
-.order-button :hover,
+.order-button :hover {
+        font-weight: 600;
+        background-color: #404bbf;
+        }
 .order-button :focus {
     font-weight: 600;
     background-color: #404bbf;
