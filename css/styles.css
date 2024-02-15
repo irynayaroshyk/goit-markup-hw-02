@@ -13,84 +13,86 @@ img {
 }
 body {
     font-family: "Roboto", sans-serif;
-    color: #2E2F42;
-    font-style: normal;
-    font-weight: 400;
+    color: #434455;
+    background-color: #fff;
 }
 .logo {
     font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-
-.logo-text-violet {
-    color: #4d5ae5
+.logo-part {
+    color: #2e2f42
 }
-
 .nav-list-item {
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .nav-list-item :hover,
-.nav-list-item :focus,
-.nav-list-item :active {
+.nav-list-item :focus {
     color: #404BBF;
 }
-
-.address-list-item {
+.address {
+    font-style: normal;
+}
+.address-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455; 
+    color: #434455;
 }
-.address-list-item :hover,
-.address-list-item :focus {
+.address-link :hover,
+.address-link :focus {
     color: #404BBF;
+}
+.solutions {
+    background-color: #2e2f42;
+}
+.solutions-title {
+    color: #fff;
+}
+.order-button {
+    font-family: inherit;
+    color: #fff;
+    background-color: #4d5ae5;
 }
 .order-button :hover
 .order-button :focus {
     font-weight: 600;
+    background-color: #404bbf;
 }
 .studio-list {
-        font-family: Roboto;
+        color:#2E2F42
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        text-align: left;
 }
-.team-name {
-        font-size: 20px;
-        font-weight: 500;
+.team {
+    background-color: #f4f4fd;
+}
+.section-title {
+        color: #2e2f42;
+        line-height: 1.11;
+}
+.team-list {
+    color: #2e2f42;
+}
+.portfolio-list {
         line-height: 1.2;
-        letter-spacing: 0.02em;
-        text-align: center;
-}
-.team-position {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #434455;
-}
-.portfolio-item {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-}
-.portfolio-item-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+        color: #2e2f42;
 }
 .footer-text {
     color: #F4F4FD;
+}
+.page-footer {
     background-color: #2E2F42;
 }
