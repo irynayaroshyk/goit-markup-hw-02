@@ -28,7 +28,7 @@ body {
 .logo-part {
     color: #2e2f42
 }
-.nav-list-item {
+.nav-list {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -36,8 +36,8 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.nav-list-item :hover,
-.nav-list-item :focus {
+.nav-list :hover,
+.nav-list :focus {
     color: #404BBF;
 }
 .address {
@@ -49,32 +49,54 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.address-link :hover,
-.address-link :focus {
+.address-list :hover,
+.address-list :focus {
     color: #404BBF;
 }
 .solutions {
     background-color: #2e2f42;
 }
 .solutions-title {
-    color: #fff;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
 }
 .order-button {
-    font-family: inherit;
-    color: #fff;
-    background-color: #4d5ae5;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+        background-color: #4d5ae5;
 }
 .order-button :hover
 .order-button :focus {
     font-weight: 600;
     background-color: #404bbf;
 }
-.studio-list {
-        color:#2E2F42
+.list-item {
+        color:#2E2F42;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+}
+.value-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.section-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
 }
 .team {
     background-color: #f4f4fd;
@@ -82,9 +104,21 @@ body {
 .section-title {
         color: #2e2f42;
         line-height: 1.11;
+        font-size: 36px;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
 }
 .team-list {
     color: #2e2f42;
+    background-color: #ffffff;
+}
+.team-name {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
 }
 .portfolio-list {
         line-height: 1.2;
@@ -92,6 +126,8 @@ body {
 }
 .footer-text {
     color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .page-footer {
     background-color: #2E2F42;
